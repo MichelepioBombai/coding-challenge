@@ -1,0 +1,14 @@
+body > header{
+  background: #d3d3d3;
+  text-align: center;
+}
+
+
+section > h2{
+  color: orange;
+}
+
+
+hr{
+  border-color: orange;
+}

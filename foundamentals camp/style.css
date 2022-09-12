@@ -1,0 +1,62 @@
+body {
+  background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+}
+
+
+.container{
+  width: 1000px;
+  margin: auto;
+
+}
+
+.logo{
+  width: 200px;
+}
+
+.textlogo{
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
+
+hr{
+  margin-top: auto;
+}
+
+.unreadmail{
+  color: white;
+}
+
+.cerchio{
+  border-radius: 50%;
+  background-color: orange;
+}
+
+.mail{
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+.soggetto{
+  width: 35%;
+  display: inline-block;
+}
+
+.contenuto{
+  width: 20%;
+  display: inline-block;
+}
+
+.fine{
+  color: white;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.fine2{
+  font-size: 15px;
+}
+
+.ucc{
+  margin-left: 370px;
+}

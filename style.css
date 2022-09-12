@@ -1,0 +1,65 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+
+.container{
+  width: 1000px;
+  margin: auto;
+
+}
+
+.logo{
+  position: relative;
+  width: 250px;
+  left: 380px;
+  top: 120px;
+  }
+
+  nav > h1{
+    text-align: center;
+    top: 100px;
+    position: relative;
+    font-size: 40px;
+    color: #7FFF00;
+  }
+
+  .input{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: #7FFF00;
+    padding: 10px;
+  }
+
+  section{
+    position: relative;
+    top: 100px;
+    color: white;
+  }
+
+  .Monopattino{
+    display: inline-block;
+  }
+
+.carica-arancione{
+  width: 350px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.carica-verde{
+  width: 600px;
+  height: 30px;
+  background-color: #7FFF00;
+  border-radius: 10px;
+}
+
+.carica-rossa{
+  width: 130px;
+  height: 30px;
+  background-color: red;
+  border-radius: 10px;
+}

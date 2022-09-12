@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>registrazione sito internet</h1>
+    <br>
+
+    <!-- inserire credenziali -->
+    <form class="" action="registrazione.html" method="post">
+      <div>
+        <input type="text" name="nome" placeholder="inserisci nome" required minlength="3" maxlength="12">
+      </div>
+      <div>
+        <input type="text" name="cognome" placeholder="inserisci cognome"required>
+      </div>
+      <div>
+        <input type="email" name="email" placeholder="inserisci email"required>
+      </div>
+      <div>
+          <input type="password" name="password" placeholder="inserire password"required>
+      </div>
+
+      <!-- inserire provenienza -->
+      <div>
+        <select class="" name=""required>
+          <option value="abruzzo">abruzzo</option>
+          <option value="calabria">calabria</option>
+          <option value="veneto">veneto</option>
+          <option value="sicilia">sicilia</option>
+        </select>
+      </div>
+
+      <!-- radio e check button -->
+      <div>
+        <input type="radio"name="maggiorenne" value="0-18"required>0-18
+        <input type="radio" name="maggiorenne" value="18+"required>18+
+        <input type="date" name="data" value="data"required>
+      </div>
+      <div>
+        <input type="checkbox" name="accetta i termini e le condizioni" value="accetta i termini e le condizioni"required>accetta i termini e le condizioni
+      </div>
+
+      <!-- tasto invia -->
+      <div>
+        <input type="submit" name="invia" value="invia">
+      </div>
+    </form>
+
+  </body>
+</html>
